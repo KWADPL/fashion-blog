@@ -1,0 +1,40 @@
+.homeimg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.homediv {
+    background-color: rgba(255, 255, 255, 0.9); /* Jasne tło z lekką przezroczystością */
+    border: 2px solid #8e2492; /* Ramka w kolorze dopasowanym do koloru nagłówka */
+    border-radius: 12px; /* Zaokrąglone rogi */
+    padding: 20px; /* Odstęp wewnętrzny od krawędzi */
+    max-width: 900px; /* Maksymalna szerokość kontenera */
+    margin: 30px auto; /* Wyśrodkowanie kontenera */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efekt cienia dla kontenera */
+}
+
+.homediv h1 {
+    font-size: 2.5em; /* Zwiększenie rozmiaru czcionki */
+    color: #8e2492; /* Kolor nagłówka */
+    margin: 20px 0;
+    text-align: center; /* Wyśrodkowanie tekstu */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Styl czcionki */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Efekt cienia */
+}
+
+.homediv p {
+    font-size: 1.2em;
+    color: #444; /* Kolor tekstu */
+    margin-bottom: 20px;
+    line-height: 1.6; 
+    text-align: justify; 
+    font-family: 'Arial', sans-serif; 
+    padding: 10px 0; 
+    max-width: 800px; /* Maksymalna szerokość akapitu */
+    margin-left: auto; 
+    margin-right: auto; /* Wyśrodkowanie akapitu wewnątrz kontenera */
+}

@@ -1,0 +1,79 @@
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #f88fe1; 
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #fff;     
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .mission-vision {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+  
+  .mission, .vision {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .team-section {
+    margin: 40px 0;
+  }
+  
+  .team-photo {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .testimonials {
+    margin: 40px 0;
+  }
+  
+  .testimonial {
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  .testimonial .author {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .cta {
+    margin: 40px 0;
+  }
+  
+  .subscribe-button {
+    padding: 10px 20px;
+    background-color: #f88fe1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #f06bd6;
+  }

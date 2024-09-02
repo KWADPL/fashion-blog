@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), /* Ciemniejszy kolor z przezroczystością */
+      rgba(0, 0, 0, 0.3) /* Możesz dostosować przezroczystość według potrzeb */
+    ),
+    url('../assets/pink-fashion-illustration-7vwtzy0dwsft3lmd.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
